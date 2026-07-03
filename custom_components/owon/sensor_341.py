@@ -90,7 +90,7 @@ def parse_phase_data(raw: Any) -> dict[str, float | None]:
     result["voltage_v"] = round(_u32le(data, 0) * 0.1, 2)
     result["current_a"] = round(_u32le(data, 4) * 0.001, 4)
     result["power_kw"] = round(_u32le(data, 8) * 0.001, 4)
-    result["power_factor_pct"] = round(data[12] * 0.01, 4)
+    result["power_factor_pct"] = float(data[12])
     return result
 
 
