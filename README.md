@@ -1,6 +1,6 @@
 # OWON Home Assistant Integration
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
+![Home Assistant Community Store Badge](https://img.shields.io/badge/Home%20Assistant%20Community%20Store-41BDF5?logo=homeassistantcommunitystore&logoColor=fff&style=for-the-badge)
 
 Home Assistant integration for OWON smart meters (PC321, PC341) via MQTT.
 
