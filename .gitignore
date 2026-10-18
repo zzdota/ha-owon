@@ -1,2 +1,7 @@
 **/__pycache__/
 **/*.pyc
+*.docx
+.venv/
+.venv311/
+.venv312/
+.venv314/.idea/
