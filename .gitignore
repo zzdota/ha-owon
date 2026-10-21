@@ -4,4 +4,5 @@
 .venv/
 .venv311/
 .venv312/
-.venv314/.idea/
+.venv314/
+.idea/
