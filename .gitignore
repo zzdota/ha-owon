@@ -6,3 +6,10 @@
 .venv312/
 .venv314/
 .idea/
+
+# 本地开发环境（Dev Container + 编辑器配置），不入库
+.devcontainer/
+.vscode/
+
+.DS_Store
+**/.DS_Store
